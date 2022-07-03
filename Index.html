@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Libre+Baskerville:wght@700&family=Nunito&family=Roboto:wght@500&family=Josefin+Slab:wght@700&display=swap"
+      rel="stylesheet">
+    <title>Mesa 1</title>
+</head>
+<body background="asset/img/fondo/fondo-carta-2.jpg">
+  <header>
+    <h1 class="titulo">CARTA DIGITAL</h1>
+      <p class="mesa">Mesa 1</p>
+      <div class="headerContentMenu">
+        <ul class="HeaderMenu">
+          <li><button class="mostrar">Bebidas</button></li>
+          <li><button class="mostrar">Entradas</button></li>
+          <li><button class="mostrar">Cocina</button></li>
+          <li><button class="mostrar">Postres</button></li>
+        </ul>
+      </div>
+    </header>
+<section class="contenedor">
+  <section class="contenedorproductos" style="display:block;">
+    <h2>
+      Bienvenidos a la carta digital
+    </h2>
+  </section>
+  <section class="contenedorproductos" style="display:none;">
+    <h2 class="tituloproductos">Bebidas</h2>
+    <div id="Bebidas">
+
+    </div>        
+  </section>
+  <section class="contenedorproductos" style="display:none;">
+        <h2 class="tituloproductos">Entradas</h2>
+        <div id="Entradas">
+
+        </div>
+      </section>
+      <section class="contenedorproductos" style="display:none;">
+        <h2 class="tituloproductos">Cocina</h2>
+        <div id="Cocina">
+
+        </div>       
+      </section>
+      <section class="contenedorproductos" style="display:none;">
+        <h2 class="tituloproductos">Postres</h2>
+        <div id="Postres">
+
+        </div>        
+      </section>
+
+      <section class="contenedorPedido" style="display:none;">
+        <h2 class="tituloproductos">Pedido</h2>
+        <ul>           
+          <li class="producto"> 
+             <p class="indiceId">Cant</p>
+             <p class="indiceProd">Producto</p>
+             <p class="indicePrecio">Precio</p>
+             </li>
+             <div id="myPedido"></div>
+         </ul>
+         <div  class="productoPrecio">
+            <div class="preductoPrecioContenedor">total:</div>
+            <div class="valorTotal preductoPrecioContenedor"></div>
+         </div>
+         <div class="tituloCompra">
+           <button class="mostrarComprar">Comprar</button>
+         </div>
+      </section>
+    </section>
+    <footer>
+      <div class="caja">
+        <button class="total" id="pedir">
+          <img src="asset/img/logo/Carrito-compra.jpg">
+        </button>
+      </div>
+    </footer>
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/js/funciones.js"></script>
+    <script src="asset/js/app.js"></script>
+    
+</body>
+</html>
+
+
